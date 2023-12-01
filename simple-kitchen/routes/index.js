@@ -38,7 +38,7 @@ router.post(
 
       // generate salt to hash password, and then hash password before save
       const salt = await bcrypt.genSalt(10);
-      registration.password = await bcrypt.hash(registration.password);
+      registration.password = await bcrypt.hash(registration.password, salt);
 
       registration.save()
         .then(() => {
