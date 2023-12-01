@@ -3,7 +3,7 @@ main {
 }
 main h2 {
   text-align: center;
-  margin: 2em auto;
+  margin: 1em auto;
 }
 main #reg-form .form-registration {
   display: flex;
