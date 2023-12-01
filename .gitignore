@@ -1,7 +1,7 @@
 # Uncomment as you wish!
 
 # Dependency directories
-# node_modules/
+node_modules/
 
 # dotenv environment variable files
 # .env
